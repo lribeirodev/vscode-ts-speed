@@ -1,0 +1,15 @@
+{
+    "TypeScript Getter and Setter": {
+        "prefix":"get",
+        "body":[
+            "get ${1:${PROPERTY_NAME}}(): ${2:${RETURN_VALUE}} {",
+            "   return this._${1:${PROPERTY_NAME}};",
+            "}",
+            "",
+            "set ${1:${PROPERTY_NAME}}(value: ${2:${RETURN_VALUE}}) {",
+            "   this._${1:${PROPERTY_NAME}} = value;",
+            "}"
+        ],
+        "description": "Create getter and setter property really fast"
+    }
+}

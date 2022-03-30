@@ -1,0 +1,22 @@
+{
+    "name": "ts-speed",
+    "displayName": "ts-speed",
+    "description": "Speed TypeScript Snippet",
+    "version": "1.0.0",
+    "publisher": "Lucas Ribeiro",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
